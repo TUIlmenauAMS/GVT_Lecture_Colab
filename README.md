@@ -26,7 +26,7 @@ Open Lecture 8a in Colab:
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8a.ipynb
 
 Open Lecture 8b in Colab:
-https://colab.research.google.com/drive/1vo4RzswqJmBKlAYy9msALwDYYw5DoUgl
+https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8b.ipynb
 
 Open Lecture 9 in Colab:
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V9.ipynb

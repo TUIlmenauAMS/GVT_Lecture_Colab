@@ -1,5 +1,6 @@
-# GVT
-GVT Lecture notes in google colab
+# Welcome to our Github repository for the Colab Jupyter notebooks for our lecture
+# Digital Signal Processing for Media Technology
+# and Basics of Video Technology
 
 Open Lecture 1 in Colab:
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb

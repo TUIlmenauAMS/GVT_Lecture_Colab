@@ -7,23 +7,8 @@ https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/mai
 
 Open Lecture 2 in Colab:
 
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyPJQnCHnK0rXzi8/FUEprBE",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  }
+[![NBViewer](https://badgen.net/badge/Launch/on%20NBViewer/blue?icon=terminal)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)(https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb)
 
 ([https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/master/GVT_V2.ipynb](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb))
 

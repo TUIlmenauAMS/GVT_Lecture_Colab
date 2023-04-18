@@ -6,7 +6,7 @@ Open Lecture 1 in Colab:
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb
 
 Open Lecture 2 in Colab:
-[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)(https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb)
+[![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb)
 
 ([https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/master/GVT_V2.ipynb](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb))
 

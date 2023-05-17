@@ -17,10 +17,21 @@ Open Lecture 2 in Colab:
 
 ([https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/master/GVT_V2.ipynb](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb))
 
+- Introduction Python
+- Image processing
+- Video processing
+- Audio processing
+
 Open Lecture 3 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V3.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V3.ipynb
+
+- Psycho-Optics
+- Decomposition into Pixel
+- Color Encoder and Decoder
+- Color Mixing
+- Psycho Acoustics
 
 Open Lecture 4 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V4.ipynb)

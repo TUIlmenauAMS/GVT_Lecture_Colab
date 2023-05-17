@@ -1,10 +1,9 @@
-# Welcome to our Github repository for the Colab Jupyter notebooks for our lecture at TU Ilmenau of
-# Digital Signal Processing for Media Technology
-# and Basics of Video Technology
+# Welcome to our Github repository for the Colab Jupyter notebooks for our lecture at TU Ilmenau of Digital Signal Processing for Media Technology and Basics of Video Technology
 
 # Content
 Open Lecture 1 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb)
+https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb
 
 - Introduction
 - Introduction to Python
@@ -12,8 +11,6 @@ Open Lecture 1 in Colab:
 - Psycho-physics (properties of the eye: vision; ear: hearing)
 - Digital Filters
 - Digital transmission
-
-https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb
 
 Open Lecture 2 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V2.ipynb)

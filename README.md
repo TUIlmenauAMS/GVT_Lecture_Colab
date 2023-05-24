@@ -38,6 +38,12 @@ Open Lecture 4 in Colab:
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V4.ipynb
 
+- Downsampling
+- Aliasing
+- Discrete Forier Transformation
+- Low pass filter
+- Reconstruction of image in the decoder
+
 Open Lecture 5 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V5.ipynb)
 

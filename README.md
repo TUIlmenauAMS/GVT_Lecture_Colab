@@ -49,6 +49,11 @@ Open Lecture 5 in Colab:
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V5.ipynb
 
+- Reconstruction
+- Sampling Theorem
+- Normalized frequency
+- Quality measurement
+
 Open Lecture 6 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V6.ipynb)
 

@@ -59,29 +59,46 @@ Open Lecture 6 in Colab:
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V6.ipynb
 
+- Discrete Cosine Transform (DCT)
+
 Open Lecture 7 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V7.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V7.ipynb
+
+- Quantization
+- Coding as bits
+- Write to file
 
 Open Lecture 8a in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8a.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8a.ipynb
 
+- Transmission
+- Modulation
+
 Open Lecture 8b in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8b.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V8b.ipynb
+
+- Modulation Types
 
 Open Lecture 9 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V9.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V9.ipynb
 
+- QAM
+- SSB
+- FM
+
 Open Lecture 10 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V10.ipynb)
 
 https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V10.ipynb
+
+- Digital filters
 
 ...

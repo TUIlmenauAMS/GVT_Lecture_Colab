@@ -1,4 +1,4 @@
-# Welcome to our Github repository for the Colab Jupyter notebooks for our lecture at TU Ilmenau of Digital Signal Processing for Media Technology and Basics of Video Technology
+# Welcome to our Colab Jupyter notebooks for our lecture "Digital Signal Processing for Media Technology" and "Basics of Video Technology"  at TU Ilmenau
 
 # Content
 Open Lecture 1 in Colab:

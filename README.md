@@ -1,4 +1,5 @@
 # Welcome to our Colab Jupyter notebooks for our lecture "Digital Signal Processing for Media Technology" and "Basics of Video Technology"  at TU Ilmenau
+## Colab notebooks by Preepoonya Chantarapornkit
 
 # Content
 Open Lecture 1 in Colab:

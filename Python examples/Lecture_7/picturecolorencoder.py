@@ -18,7 +18,7 @@ print(r,c)
 #Store dimensions in info file:
 np.savetxt('framedimc.txt', [r,c])
 
-print "Record to compressed files with key 'q', show until key 'q' is pressed "
+print("Record to compressed files with key 'q', show until key 'q' is pressed ")
 
 #only kep the 3 lowest frequencies coefficients of the 8x8 DCT,
 
@@ -55,7 +55,7 @@ while(True):
         Ydct=blockdct.dct8x8(Y)
         Udct=blockdct.dct8x8(U)
         Vdct=blockdct.dct8x8(V)
-        print np.min(np.min(Udct))
+        print( np.min(np.min(Udct)))
         #Quantize:
         #print('Quantisieren')
         #Ausprobieren vom Bereich:

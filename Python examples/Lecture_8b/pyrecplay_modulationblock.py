@@ -45,9 +45,10 @@ while True:
 
     #Compute a block/an array of sine samples with 500 Hz:
     #s=numpy.sin(2*numpy.pi/RATE*500*numpy.arange(0,CHUNK));
-    s=numpy.sin(2*numpy.pi/RATE*16800.0*numpy.arange(0,CHUNK));
+    s=numpy.sin(2*numpy.pi/RATE*500.0*numpy.arange(0,CHUNK));
     #multiply/modulate the signal with the sine samples:
     samples=samples*s;
+    samples=samples.astype(int)
     samples=numpy.clip(samples, -32000,32000)
     #end signal processing
 

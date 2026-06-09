@@ -73,7 +73,7 @@ if __name__ == '__main__':
   #bitstring=readbinaryfile('y00enc.bin')
   #bitstring=readbinaryfile('test.bin')
   #Try text file:
-  bitstring=readbinaryfile('test.bin')
+  bitstring=readbinaryfile('test.txt')
   #Try image file:
   #bitstring=readbinaryfile('y00enc.bin')
   #AM modulation for the bits:
@@ -91,7 +91,8 @@ if __name__ == '__main__':
   print("geschriebene bits: ", len(bitstring))
 
   fig=plt.figure()
-  fig.canvas.set_window_title('Erzeugtes AM Signal')
+  #fig.canvas.set_window_title('Erzeugtes AM Signal')
+  fig.canvas.manager.set_window_title('Erzeugtes AM Signal')
   plt.plot(soundoutput)
   plt.xlabel('Sample')
   plt.ylabel('Value')

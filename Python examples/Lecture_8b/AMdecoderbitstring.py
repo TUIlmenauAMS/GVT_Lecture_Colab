@@ -81,7 +81,7 @@ print("filter the clock component")
 #de-modulate by low pass filtering:
 decAMclock_sin=scipy.signal.lfilter(b, a, downmixAMclock_sin);
 
-traegercos = np.cos(2*scipy.pi/FS*2000*np.arange(0,lenAM));
+traegercos = np.cos(2*np.pi/FS*2000*np.arange(0,lenAM));
 #donw mix, magnitude:
 downmixAMclock_cos=(traegercos*AM)
 #de-modulate by low pass filtering:

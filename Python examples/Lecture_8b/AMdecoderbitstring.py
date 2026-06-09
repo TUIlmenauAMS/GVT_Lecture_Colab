@@ -23,14 +23,14 @@ sndfile=sys.argv[1]
 #read in sound file:
 [AM, FS]=sound.wavread(sndfile)
 #length of the sound:
-lenAM=scipy.size(AM)
+lenAM=np.size(AM)
 
 #compute the low pass filter coefficients,
 #with 10 Hz cutoff frequency:
 [b,a]=scipy.signal.iirfilter(2, 20.0/(FS/2),rp=60,btype='lowpass')
 [w,H]=scipy.signal.freqz(b,a)
-Ha=scipy.absolute(H)
-fig=plt.figure()
+Ha=np.absolute(H)
+plt.figure()
 #plt.plot(w,Ha)
 #In dB on normalized frequency axis w:
 plt.plot(w,20*np.log10(Ha))
@@ -41,45 +41,47 @@ plt.axis([0,3.15,-80, 5])
 
 
 
-fig=plt.figure()
-fig.canvas.set_window_title('Das AM Signal mit Clock- und Bit-Signal')
+plt.figure()
+#fig.canvas.set_window_title('Das AM Signal mit Clock- und Bit-Signal')
+plt.title('Das AM Signal mit Clock- und Bit-Signal')
 plt.plot(AM)
 plt.xlabel('Sample')
 plt.ylabel('Value')
 plt.show()
 #Compute average power to remove silence:
-p=scipy.signal.lfilter(b, a, scipy.power(AM,2));
+p=scipy.signal.lfilter(b, a, np.power(AM,2));
 
 print("Filter the bit component:");
 #get the bit frequency component at 1 kHz by down mixing:
 #sinus Traeger:
-traegersin = scipy.sin(2*scipy.pi/FS*1000*scipy.arange(0,lenAM));
+traegersin = np.sin(2*np.pi/FS*1000*np.arange(0,lenAM));
 downmixAMbits_sin=(traegersin*AM)
 #De-modulate by low pass filtering and taking abs value (bit and clock are always positive)
 decAMbits_sin=scipy.signal.lfilter(b, a, downmixAMbits_sin);
 #Cosinus Traeger:
-traegercos = scipy.cos(2*scipy.pi/FS*1000*scipy.arange(0,lenAM));
+traegercos = np.cos(2*np.pi/FS*1000*np.arange(0,lenAM));
 downmixAMbits_cos=(traegercos*AM)
 #De-modulate by low pass filtering and taking abs value (bit and clock are always positive)
 decAMbits_cos=scipy.signal.lfilter(b, a, downmixAMbits_cos);
 #Berechne betrag der komplexen Demodulation:
 decAMbits= np.sqrt(decAMbits_sin**2+decAMbits_cos**2)
 
-fig=plt.figure()
-fig.canvas.set_window_title('Das demodulierte Bit Signal')
+#fig=plt.figure()
+#fig.canvas.set_window_title('Das demodulierte Bit Signal')
+plt.title('Das demodulierte Bit Signal')
 plt.plot(decAMbits)
 plt.xlabel('Sample')
 plt.ylabel('Value')
 
 #get the clock frequency component at 2 kHz:
-traegersin = scipy.sin(2*scipy.pi/FS*2000*scipy.arange(0,lenAM));
+traegersin = np.sin(2*np.pi/FS*2000*np.arange(0,lenAM));
 #donw mix, magnitude:
 downmixAMclock_sin=(traegersin*AM)
 print("filter the clock component")
 #de-modulate by low pass filtering:
 decAMclock_sin=scipy.signal.lfilter(b, a, downmixAMclock_sin);
 
-traegercos = scipy.cos(2*scipy.pi/FS*2000*scipy.arange(0,lenAM));
+traegercos = np.cos(2*scipy.pi/FS*2000*np.arange(0,lenAM));
 #donw mix, magnitude:
 downmixAMclock_cos=(traegercos*AM)
 #de-modulate by low pass filtering:
@@ -88,8 +90,9 @@ decAMclock_cos=scipy.signal.lfilter(b, a, downmixAMclock_cos);
 decAMclock=np.sqrt(decAMclock_sin**2+decAMclock_cos**2)
 
 
-fig=plt.figure()
-fig.canvas.set_window_title('Das demodulierte Clock Signal')
+plt.figure()
+#fig.canvas.set_window_title('Das demodulierte Clock Signal')
+plt.title('Das demodulierte Clock Signal')
 plt.plot(decAMclock)
 plt.xlabel('Sample')
 plt.ylabel('Value')
@@ -104,7 +107,7 @@ print("schwelle=", schwelle)
 #Laenge des empfangenen geglaetteten Signals:
 laenge=max(decAMbits.shape)
 
-fig=plt.figure()
+plt.figure()
 plt.plot((decAMbits>schwelle)*1.1-0.01,'r')
 #fig=plt.figure()
 plt.plot((decAMclock> schwellec),'b')

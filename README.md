@@ -2,6 +2,9 @@
 ## Prof. Dr.-Ing. Gerald Schuller
 ## Colab notebooks by Preepoonya Chantarapornkit
 
+Our accompanying Chatbot [DSP Media Tech Tutor](
+https://chatgpt.com/g/g-67608f74115481919e7b69f47a64acb5-dsp-mediatech-tutor)
+
 # Content
 Open Lecture 1 in Colab:
 [![Google Colab](https://badgen.net/badge/Launch/on%20Google%20Colab/black?icon=terminal)](https://colab.research.google.com/github/TUIlmenauAMS/GVT_Lecture_Colab/blob/main/GVT_V1.ipynb)[![Youtube](https://badgen.net/badge/Launch/on%20YouTube/red?icon=terminal)](https://youtu.be/clQ-jiXYogo)
